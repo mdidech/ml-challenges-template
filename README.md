@@ -28,8 +28,8 @@ pip install uv
 
 ```bash
 # 1. Cloner le dépôt
-git clone REPO_URL
-cd REPO_NAME
+git clone https://github.com/mdidech/ml-challenges-template.git
+cd ml-challenges-template
 
 # 2. Créer l'environnement virtuel
 uv venv
