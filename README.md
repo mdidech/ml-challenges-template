@@ -43,9 +43,6 @@ uv sync
 ## Utilisation
 
 ```bash
-# Lancer un script
-uv run python script.py
-
 # Ou activer l'environnement
 source .venv/bin/activate      # macOS / Linux
 .venv/Scripts/activate.bat     # Windows (cmd)
@@ -58,16 +55,16 @@ source .venv/bin/activate      # macOS / Linux
 
 ```bash
 # Ajouter un paquet
-uv add NOM_PAQUET
+uv add NOM_PACKAGE
 
 # Ajouter une dépendance de développement
-uv add --dev NOM_PAQUET
+uv add --dev NOM_PACKAGE
 
 # Ajouter une version précise
-uv add "paquet>=x.x"
+uv add "PACKAGE>=x.x"
 
 # Supprimer un paquet
-uv remove NOM_PAQUET
+uv remove NOM_PACKAGE
 
 # Mettre à jour toutes les dépendances
 uv sync --upgrade
@@ -93,8 +90,8 @@ uv sync --upgrade
 |---|---|
 | Créer l'env virtuel | `uv venv` |
 | Installer les dépendances | `uv sync` |
-| Ajouter un paquet | `uv add NOM_PAQUET` |
-| Supprimer un paquet | `uv remove NOM_PAQUET` |
+| Ajouter un paquet | `uv add NOM_PACKAGE` |
+| Supprimer un paquet | `uv remove NOM_PACKAGE` |
 | Lancer un script | `uv run python script.py` |
 | Mettre à jour uv | `uv self update` |
 
