@@ -34,8 +34,8 @@ cd <new-project-name>
 # 2. Créer l'environnement virtuel
 uv venv
 
-# 3. Installer les dépendances
-uv sync
+# 3. init project
+uv init
 ```
 
 ---
